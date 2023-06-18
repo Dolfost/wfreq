@@ -27,9 +27,16 @@ end
 
 local parser = argparse()
 :name "wfreq"
-:description "Linkage script beetween lab 4.4 and Pygram."
+:description "Linkage script beetween Lab_4.4 and Pygram."
 :help_max_width(80)
 :epilog [[
+Typical format:
+  $ wfreq <wfreq.lua options> [-- <pygram.py options>]
+Where:
+   <wfreq.lua options> Are shown above.
+   <pygram.py options> You can check them with
+                       $ python3 Pygram/pygram.py --help
+
 Example usage:
   $ lua wfreq.lua -f hamlet.txt -m 20 -- --title imposter --rotation 90 
     --label -x "Words" -y "Quantity"
