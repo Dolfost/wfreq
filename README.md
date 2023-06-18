@@ -20,7 +20,7 @@ $ lua wfreq.lua --help
 ```
 Usage: wfreq [-h] [--max NUM] --file FILE [--version] [<pygram>] ...
 
-Linkage script beetween lab 4.4 and Pygram.
+Linkage script beetween Lab_4.4 and Pygram.
 
 Arguments:
    pygram
@@ -33,8 +33,15 @@ Options:
        -f FILE
    --version, -v         Print version and exit.
 
+Typical format:
+  $ wfreq <wfreq.lua options> [-- <pygram.py options>]
+Where:
+   <wfreq.lua options> Are shown above.
+   <pygram.py options> You can check them with
+                       $ python3 Pygram/pygram.py --help
+
 Example usage:
-  $ lua wfreq.lua -f hamlet.txt -m 20 -- --title imposter --rotation 90
+  $ lua wfreq.lua -f hamlet.txt -m 20 -- --title Words --rotation 90
     --label -x "Words" -y "Quantity"
 ```
 
