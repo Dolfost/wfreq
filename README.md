@@ -50,11 +50,19 @@ Example usage:
     ```shell-session
     $ git clone --recurse-submodules https://github.com/Dolfost/wfreq
     ```
-1. Install Lua v5.3 and higher
+1. Install `Lua v5.3` and higher
     ```shell-session
     $ brew install lua
     ```
-1. Install python v3.0 and higher
+1. Install `luarocks`
+    ```shell-session
+    $ brew install luarocks
+    ```
+1. Install Lua dependencies
+    ```shell-session
+    $ luarocks install argparse
+    ```
+1. Install `python v3.0` and higher
     ```shell-session
     $ brew install python3
     ```
