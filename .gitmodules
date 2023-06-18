@@ -1,0 +1,3 @@
+[submodule "Pygram"]
+	path = Pygram
+	url = https://github.com/Dolfost/Pygram
