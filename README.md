@@ -63,3 +63,5 @@ Example usage:
     $ pip install -U matplotlib
     ```
 1. Ejoy!
+
+Note that you might want to use different pakage manager than `homebrew`.
