@@ -38,7 +38,7 @@ Where:
                        $ python3 Pygram/pygram.py --help
 
 Example usage:
-  $ lua wfreq.lua -f hamlet.txt -m 20 -- --title imposter --rotation 90 
+  $ lua wfreq.lua -f hamlet.txt -m 20 -- --title "Words" --rotation 90 
     --label -x "Words" -y "Quantity"
 ]]
 
