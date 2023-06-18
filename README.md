@@ -46,9 +46,15 @@ Example usage:
 ```
 
 ## Getting started
-1. Clone the repo with
+1. Clone the repo with `git`
     ```shell-session
     $ git clone --recurse-submodules https://github.com/Dolfost/wfreq
+    ```
+1. Build the lab4.4 with `build.sh`
+    ```shell-session
+    $ cd Lab_4.4
+    $ chmod +x build.sh
+    $ cd ..
     ```
 1. Install `Lua v5.3` and higher
     ```shell-session
