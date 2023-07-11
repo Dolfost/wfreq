@@ -54,6 +54,7 @@ Example usage:
     ```shell-session
     $ cd Lab_4.4
     $ chmod +x build.sh
+    $ ./build.sh
     $ cd ..
     ```
 1. Install `Lua v5.3` and higher
